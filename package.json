@@ -1,21 +1,21 @@
 {
-  "name": "json2fson",
+  "name": "fson2json",
   "version": "1.0.5",
-  "description": "JavaScript Object Notation to FileSystem Object Notation",
+  "description": "FileSystem Object Notation to JavaScript Object Notation",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/adelriosantiago/json2fson.git"
+    "url": "git+https://github.com/adelriosantiago/fson2json.git"
   },
   "keywords": [
     "json",
     "fson",
     "filesystem",
-    "json2fson",
-    "jsontofson"
+    "fson2json",
+    "fsontojson"
   ],
   "dependencies": {
     "lodash": "^4.17.4",
@@ -24,7 +24,7 @@
   "author": "@adelriosantiago",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/adelriosantiago/json2fson/issues"
+    "url": "https://github.com/adelriosantiago/fson2json/issues"
   },
-  "homepage": "https://github.com/adelriosantiago/json2fson#readme"
+  "homepage": "https://github.com/adelriosantiago/fson2json#readme"
 }

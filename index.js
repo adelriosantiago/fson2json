@@ -1,4 +1,4 @@
-//json2fson (JavaScript Object Notation to FileSystem Object Notation)
+//fson2json (FileSystem Object Notation to JavaScript Object Notation)
 
 'use strict';
 
@@ -7,7 +7,7 @@ var path = require('path'),
 	_ = require('lodash'),
 	mkdirp = require('mkdirp');
 
-//Default options
+/*//Default options
 var defaultOptions = { dbPath: "./fson/" };
 
 function convert(json, subPath) {
@@ -34,7 +34,7 @@ function convert(json, subPath) {
 
 function options(opts) {
 	defaultOptions = _.merge(defaultOptions, opts);
-}
+}*/
 
 module.exports = {
 	convert: convert,
